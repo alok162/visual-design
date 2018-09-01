@@ -1,0 +1,158 @@
+html, body, div, body ul, li, .row .balances, .row .body-top .row .profile-body, .row .ShortLink-body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.bd-img {
+    background-image: url("bg-main.jpg");
+}
+
+/* advertisement */
+
+.row.advertisement {
+    margin-top: 10px;
+}
+
+.advertisement-img {
+    width: 100%;
+}
+
+.advertisement-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* balances */
+
+.balances {
+    background-color: #ffffff;
+}
+
+.blnc-text {
+    color: darkgray
+}
+
+.amnt-text {
+    color: darkcyan;
+    font-size: 36px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* .balances-top {
+    padding: 0 8px;
+} */
+
+/* .balances-ul-top {
+    margin: 18px 0px
+} */
+
+.balances-ul-top span {
+    color: orange;
+}
+
+.balances-txt {
+    font-size: 20px;
+    color: #908686;
+    font-family: initial;
+}
+/* .dropdown .btn-primary {
+    color: #fff;
+    background-color: #e0eaf5;
+    border-color: #99a5b3;
+} */
+
+.balances-ul-bottom .click-li {
+    width: 25%;
+    text-align: center;
+}
+
+.main-body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.click-li {
+    float: left;
+}
+
+/* upcoming */
+
+.upcoming-body {
+    background-color: white;
+}
+
+.balanace-upcoming {
+    margin: 10px 0;
+}
+
+
+
+
+/* actual css styling */
+
+.profile-transaction {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-body {
+    width: 68%;
+    padding: 10px 8px;
+    background-color: 'white';
+    background-color: white;
+}
+
+/* mdedia query */
+
+@media only screen and (max-width: 1040px) {
+    .main-body {
+        width: 81%;
+        margin: 0 auto;    
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main-body {
+        width: 98%;
+        margin: 0 auto;    
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ShortLink-body { 
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .profile-transaction { 
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .transaction-body { 
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+.row.advertisement {
+    margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+.balances-upcoming {
+    margin-top: 5px;
+    }
+}
+

@@ -1,0 +1,68 @@
+
+.upcoming {
+    background-color: white;
+    padding: 8px;
+}
+
+.txt-align {
+    float: left;
+}
+
+.img-align {
+    float: right;
+}
+
+.upcoming-ul {
+    padding: 0px 0;
+}
+
+.upcoming .water-bill {
+    margin-top: 55px;
+}
+
+.water-bill span {
+    color: orange;
+}
+
+.upcoming .custom-button {
+    margin-top: 47px;
+}
+
+.upcoming .warning {
+    border-color: #ff9800;
+    color: orange;
+    margin-top: 47px;
+    width: 120px;
+    height: 34px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 425px) {
+    .upcoming-body{
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .upcoming .water-bill {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .upcoming .water-bill {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .upcoming .warning {
+        border-color: #ff9800;
+        color: orange;
+        margin-top: 20px;
+        width: 120px;
+        height: 34px;
+    }
+}

@@ -1,0 +1,95 @@
+.transaction {
+    background-color: white;
+}
+
+/* .transaction .profile-ul-1 {
+    padding: 18px 0 0 0;
+} */
+
+.profile-ul-2 {
+    padding: 16px 0;
+    margin-top: 37px;
+}
+
+.click-li {
+    width: 33.33%;
+}
+
+.option {
+    color: orange;
+}
+
+.bottom-data {
+    float: left;
+    margin-right: 9px;
+}
+
+.ham-opt {
+    margin-top: 22px;
+}
+
+.trnx-txt-date {
+    color: darkgray;
+    font-size: 12px;
+}
+
+.trnx-ul-2-data {
+    float: left;
+    margin-right: 7px;
+}
+
+.trnx-ul-2-data span {
+    font-size: 19px;
+}
+
+.transaction-ul-2 {
+    margin-top: 19px;
+}
+
+.transaction-ul-1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .transaction-ul-1 .txt {
+    width: 48%;
+}
+
+.transaction-ul-1 .img {
+    width: 41%;
+} */
+
+/* media query */
+
+@media only screen and (max-width: 1024px) {
+    .transaction-ul-1 .img{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .transaction-ul-1 .txt{
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .ham-opt {
+    margin-top: 46px;
+}
+}
+
+
+@media only screen and (max-width: 425px) {
+    .transaction-ul-1 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .transaction-ul-1 .txt {
+        width: 100%;
+    }
+}
